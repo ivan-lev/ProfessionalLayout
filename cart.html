@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script> -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+  </head>
+  <body>
+<!-- ================== HEADER ================== -->
+    <div class="header">
+      <div class="container">
+        <div class="headerLeft">
+          <img src="images/logo.png" alt="">
+          <img class="searchIcon" src="images/search.png" alt="">
+        </div>
+        <div class="headerRight">
+          <img class="" src="images/bars.png" alt="">
+          <img class="userIcon" src="images/user.png" alt="">
+
+          <span class="cartIconWrap">
+            <img class="cartIcon" src="images/cart.png" alt="">
+            <span>5</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+<!-- ================== SHOPPING CART ================== -->
+
+    <div class="shoppingCartHeader">
+      <div class="container">
+        <h1>
+          SHOPPING CART
+        </h1>
+
+      </div>
+
+    </div>
+
+  <!-- ================== CART ================== -->
+
+    <div class="container cart">
+
+      <div class="cartLeft">
+
+        <div class="cartUnit">
+          <div class="cartUnitInside">
+            <img class="cartImage" src="images/cart/01.jpg" alt="">
+            <div class="cartProduct">
+              <div class="cartProductName">MANGO PEOPLE T-SHIRT</div>
+              <div class="cartProductPrice">Price: <span>$300</span></div>
+              <div class="cartProductColor">Color: <span>Red</span></div>
+              <div class="cartProductSize">Size: <span>Xl</span></div>
+              <div class="cartProductQuantity">
+                Quantity:
+                <input type="text" name="" value="2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartUnit">
+          <div class="cartUnitInside">
+            <img class="cartImage" src="images/cart/02.jpg" alt="">
+            <div class="cartProduct">
+              <div class="cartProductName">MANGO PEOPLE T-SHIRT</div>
+              <div class="cartProductPrice">Price: <span>$300</span></div>
+              <div class="cartProductColor">Color: <span>Red</span></div>
+              <div class="cartProductSize">Size: <span>Xl</span></div>
+              <div class="cartProductQuantity">
+                Quantity:
+                <input type="text" name="" value="2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartLeftButtons">
+          <button type="button" name="button">Clear shopping cart</button>
+          <button type="button" name="button">Continue shopping</button>
+        </div>
+
+      </div>
+
+      <div class="cartRight">
+        <form class="cartRightForm" action="index.html" method="post">
+          <div class="cartRightHeader">SHIPPING ADRESS</div>
+          <input type="text" name="" value="" placeholder="Bangladesh">
+          <input type="text" name="" value="" placeholder="State">
+          <input type="text" name="" value="" placeholder="Postcode / Zip">
+          <button type="button" name="button">Get a quote</button>
+        </form>
+
+        <div class="cartTotal">
+          <div class="cartSubTotal">SUB TOTAL<span>$900</span></div>
+          <div class="cartGrandTotal">GRAND TOTAL<span>$900</span></div>
+          <div class="cartTotalDivider"></div>
+          <button type="button" name="button">PROCEED TO CHECKOUT</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- ================== SUBSCRIBE ================== -->
+    <div class="subscribe">
+      <div class="container">
+
+        <div class="subscribeLeft">
+          <img class="subscribeLeftPhoto" src="images/subscribe/photo.jpg" alt="">
+          <div class="subscribeLeftText">
+            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+          </div>
+
+        </div>
+
+        <div class="subscribeRight">
+          <div class="subscribeRightHeader">
+            SUBSCRIBE
+          </div>
+          <div class="subscribeRightText">
+            FOR OUR NEWLETTER AND PROMOTION
+          </div>
+          <form class="subscribeForm" action="index.html" method="post">
+            <input type="text" name="" value="" placeholder="Enter Your Email">
+            <button type="button" name="button">Subscribe</button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+<!-- ================== FOOTER ================== -->
+    <div class="footer">
+      <div class="container">
+
+        <div class="footerSocial">
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="footerCopyight">
+          &copy; 2021  Brand  All Rights Reserved.
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
